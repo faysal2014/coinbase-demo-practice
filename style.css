@@ -1,0 +1,29 @@
+table .table01{
+    font-size: 14px;
+}
+.earn-table{
+    transition: 0.3s ease;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.earn-table:hover{
+    background-color: ghostwhite;
+    box-shadow: 5px 5px 10px gray;
+}
+.bg08{
+    background-color: #E9F6FF;
+    margin-bottom: 7%;
+}
+
+@media only screen and (max-width: 688px) {
+    .table02{
+        display: none;
+    }
+    .bg08{
+        background-color: #113355;
+        color: ghostwhite;
+        text-align: center;
+        padding: 10% 6%;
+    }
+  }
